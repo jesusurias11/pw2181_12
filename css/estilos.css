@@ -7,8 +7,17 @@ body{
 
 	color: white;
 }
+footer
+{
+border: 1px solid orange;
+font-weight: bold;
+padding: 50px;
+text-align: center; 
+
+}
 header{
 border: 1px solid black;
+margin-bottom:  6px;
 text-align: center;
 
 
@@ -30,5 +39,21 @@ header nav ul li {
 	border: 1px solid orange;
 	border-radius: 5px;
 	display:  inline-block; 
+	margin-right: 20PX;
+	/*margin: 0px 20px 0px 0px;*/
+	padding: 10px 20px;
 	width: 90px;
 	}
+	 main article {
+border: 1px dashed black;
+display: inline-block;
+vertical-align: top;
+width: 32.65%;
+
+
+	 }
+
+	 main
+	  {
+/*margin-top: 20px;*/
+	 }
