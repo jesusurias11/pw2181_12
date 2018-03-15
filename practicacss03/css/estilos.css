@@ -1,4 +1,149 @@
 body
 {
+font-size: 16px; /*1em*/
+	margin: 0px auto;
+	max-width: 1078px;
+	min-width: 1078px; 	
+	border: 10px solid blue;	
+}
+	header
+	{
+		background: #f1f1f1;
+		padding: 20px;
+	}
+header img
+{
+     height: 50px;
+     left:60px;
+     position: relative;
+	 width: 820px; 
+	 top:5px;
+	} 
+header  input[type="search"]
+	{
+	float: left;
+     margin-left: 30px; 
+     margin-top: 5px;
+     width: 130px;
+      
+	}
+#primerseccion
+	{
+background: #2b2b2b;
+height: 350px;
+text-align: top;
+	}
+#primerseccion article img
+	{
+width: 180px;
+height: 100px;
+	}
+#primerseccion article 
+{
+	
+	display: inline-block;
+    vertical-align: top;
+	width: 15%;
+	
+}
+#articulo1sec1 ul
+{
+list-style:none;
+color: #848484;
+}
+#articulo1sec1
+{
+	
+	margin-left: 20px;
+	padding-right: 20px
+}
+#articulo2sec1
+{
+	background:#b4d052;
+	color: #ffffff;
+	margin-left: 35px;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 70px;
+	height: 300px;
+   
+}
+
+#articulo3sec1
+{
+	background: #545454;
+	color: #9e9e9e;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 70px;
+	height: 300px;
 
 }
+#articulo4sec1
+{
+	background: #d42d3f;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 70px;
+	height: 300px;
+
+
+}
+#articulo5sec1
+{
+	background: #e4e4e4;
+	color: #9e9e9e;
+	margin-top: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 70px;
+	height: 300px;
+
+}
+
+
+
+.letragrande
+{
+	font-size: 1.5em;
+}
+#segundaseccion
+{
+	background: #2b2b2b;
+	border-top: 1px solid gray;
+
+}
+
+#segundaseccion img
+{
+display: inline-block;
+margin-left: 40px;
+margin-top: 20px;
+width: 300px;
+height: 40px;
+
+}
+
+#terseraseccion
+{
+	background: #2b2b2b;
+	height: 400px;
+}
+
+#terseraseccion article
+{
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: top;
+	width: 30%;
+
+}
+Fin de la conversación de chat
+Escribe un mensaje...
