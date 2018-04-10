@@ -1,0 +1,51 @@
+var a,b = 6;
+undefined
+a
+undefined
+b
+6
+
+
+var c = a+b;
+undefined
+c
+NaN
+c
+NaN
+c
+NaN
+var c = a + b;
+undefined
+c
+NaN
+c
+NaN
+c
+NaN
+alert('javscript es bueno');
+undefined
+var respuesta=prompt("dame un numero",0 );
+undefined
+respuesta
+"66"
+function suma(a,b){return a + b;}
+undefined
+suma
+ƒ suma(a,b){return a + b;}
+var sumaNumeros=function(a,b){return a + b;}
+undefined
+sumaNumeros
+ƒ (a,b){return a + b;}
+suma(9,8)
+17
+sumaNumeros(9,8)
+17
+
+document.write("<input type='text' id='txt'>");
+undefined
+document.getElementById('txt').value=81;
+81
+document.write("<button>Da click aqui</button>");
+undefined
+document.write("<button onclick=alert(click)>Da click aqui</button>");
+undefined
