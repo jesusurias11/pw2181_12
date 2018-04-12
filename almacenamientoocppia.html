@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo de local storage</title>
+</head>
+<body>
+	<div id="demo">0</div><p></p>
+	<button onClick="aumentar()">Contador</button><p></p>
+	<button onClick="reiniciar()">Reinicia</button><p></p>
+	<button onClick="eliminar()">Elimina Contador</button>
+	<script>
+		var aumentar = function(){
+			if(typeof(localStorage.cuenta) == "undefined"){
+				localStorage.cuenta=0;
+			}
+			localStorage.cuenta++;
+			imprime(localStorage.cuenta);
+		}
+
+		var reiniciar = function(){
+			localStorage.cuenta = 0;
+			imprime(localStorage.cuenta);
+		}
+
+		var imprime = function(dato){
+			document.getElementById('demo').innerHTML = dato;
+		}
+
+		var eliminar = function(){
+			localStorage.removeItem("cuenta");
+			if(typeof(localStorage.cuenta) == "undefined"){
+			imprime("Eliminado");	
+			}
+		}
+
+		if(typeof(Storage) != "undefined"){
+			if(localStorage.cuenta){
+				imprime(localStorage.cuenta);
+			}else{
+				localStorage.cuenta=0;	
+			}
+		}
+
+	</script>
+</body>
+</html>
