@@ -5,8 +5,11 @@ body
 	margin: 0 auto;
 	max-width:  1024px;
 }
-#secciondeinicio{
+#secciondeinicio,#frmUsuario{
 	margin: 0 auto;
 	margin-top: 50px;
 	width: 350px;
+}
+#frmUsuario{
+	display: none;
 }
